@@ -33,7 +33,7 @@ export default function Intro() {
                     <h4>I'm having more than 6 years of IT experience. Currently doing my Master's from University of Texas At Dallas.</h4>
                     <button>My Resume</button>
                 </div>
-                <a href="#portfolio">
+                <a href="#experience">
                     <ExpandMoreIcon className="expandButton"/>
                 </a>
                 
