@@ -1,0 +1,163 @@
+@import '../../global.scss';
+
+.intro {
+    background-color: white;
+    display: flex;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .left {
+        flex:0.5;
+        overflow: hidden;
+
+        .imgContainer {
+            width: 650px;
+            height: 650px;
+            
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            float: right;
+            overflow: hidden;
+            border-radius: 50%;
+            background-color: #11797b;
+
+            @include mobile {
+                align-items: flex-start;
+            }
+
+            img {
+                height: 100%;
+                
+                transition: all 1s ease-in-out;
+
+                @include mobile {
+                    height: 50%;
+                }
+
+                
+
+            }
+
+            
+        }
+
+        &:hover {
+            .imgContainer {
+                img {
+                    transform: scale(1.03);
+                }
+            }
+           
+        }
+    }
+
+    .right {
+        flex:0.5;
+        position: relative;
+
+        .wrapper {
+            height: 100%;
+            width: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @include mobile {
+                padding-left: 0;
+                align-items: center;
+            }
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                color: #11797b;
+
+                @include mobile {
+                    font-size: 40px;
+                }
+            }
+            h2{
+                font-size: 25px;
+                color: #124653;
+                font-weight: 400;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 600;
+
+                @include mobile {
+                    font-size: 20px;
+                }
+
+                span {
+                    font-size: inherit;
+                    color: #124653;
+                }
+
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+                justify-content: left;
+                width: 500px;
+                margin-top: 20px;
+                font-weight: 500;
+            }
+
+            
+        }
+
+        button {
+            position: absolute;
+            bottom: 100px;
+            height: 40px;
+            width: 30%;
+            left: 20%;
+            border: 1px solid #11797b;
+            color: #11797b;
+            font-weight: 500;
+
+            &:hover {
+                background-color: #6aa7a8;
+                color: white;
+            }
+            
+        }
+
+        a {
+            position: absolute;
+            bottom: 10px;
+            left: 30%;
+
+            .expandButton {
+                font-size: 80px;
+                color: #11797b;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
