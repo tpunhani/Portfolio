@@ -303,10 +303,10 @@ export const axxess = {
         id: 1,
         text: "Extended key features and supported production bug fixes in a large user-base Axxess Home Care solution application (C#, .NET, SQL)."
       },
-        {
-                id: 2,
-                text: "Suggested improvements based on Kibana production logs and resolved Null Pointer exceptions."
-        }
+      {
+        id: 2,
+        text: "Suggested improvements based on Kibana production logs and resolved Null Pointer exceptions."
+      }
     ]
 
   };
