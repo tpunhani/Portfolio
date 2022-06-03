@@ -236,19 +236,23 @@ export const featuredPortfolio = [
     desc: [
       {
         id: 1,
-        text: "Involved in automation & Functional testing of Wynk Music android/iOS applications."
+        text: "Maintained and extended key functionalities of large-scale Music application. Millions of users consume and services operate at very high rates with very high reliability and very low latency. (Java, REST, Cassandra, SQL)."
       },
       {
         id: 2,
-        text: "Have supported in the development of automation framework from scratch using Spring boot with MVC model, TestNG, Appium with Java as programming langugage."
+        text: "Built and maintained high-performance, highly-scalable microservices allowing users to activate and deactivate HelloTunes."
       },
       {
         id: 3,
-        text: "Involved in the creation of CI/CD pipeline for android and iOS application of Wynk Music."
+        text: "Developed end to end functional testing framework with Spring MVC framework to improve efficiency and saved 50% of the time."
       },
       {
         id: 4,
-        text: "Also worked in XCTest automation framework in XCode and involved in the creation of unit test scripts for Wynk Music iOS application."
+        text: "Supported Wynk Music Web application development UI using React and bootstrap."
+      },
+      {
+        id: 5,
+        text: "Involved in functional requirements review, suggested enhancements to improve quality based on production tickets."
       }
     ]
 
@@ -261,11 +265,15 @@ export const featuredPortfolio = [
     desc: [
       {
         id: 1,
-        text: "Worked on backend automation framework using Karate in Longwalks product of Times Internet."
+        text: "Implemented Back-end services with Node.js. Successful products include Club posts and daily posts for Longwalks journaling application (Javascript, Neo4j, elasticsearch)."
       },
       {
         id: 2,
-        text: "Mostly involved in backend testing includes API's, mongo db, elastic search."
+        text: "Created and maintained fully automated CI/CD pipeline for code deployments in Jenkins to reduce extra effort and saved around 30% of the time."
+      },
+      {
+        id: 3,
+        text: "Analyzed reports on user ratings and implemented new experiences based on real time customer feed backs."
       }
     ]
 
@@ -282,6 +290,22 @@ export const featuredPortfolio = [
       {
         id: 2,
         text: "Responsible for solving student doubts after the lecture. Supported Professor with grade work."
+      }
+    ]
+
+  };
+
+export const axxess = {
+    jobTitle: "Software Engineer Intern",
+    time: "Jan 2022 - Present",
+    desc: [
+      {
+        id: 1,
+        text: "Extended key features and supported production bug fixes in a large user-base Axxess Home Care solution application (C#, .NET, SQL)."
+      },
+      {
+        id: 2,
+        text: "Suggested improvements based on Kibana production logs and resolved Null Pointer exceptions."
       }
     ]
 
