@@ -36,7 +36,7 @@ export const featuredPortfolio = [
         "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
     },
   ];
-  
+
   export const webPortfolio = [
     {
       id: 1,
@@ -69,7 +69,7 @@ export const featuredPortfolio = [
       img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
     },
   ];
-  
+
   export const mobilePortfolio = [
     {
       id: 1,
@@ -108,7 +108,7 @@ export const featuredPortfolio = [
         "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
     },
   ];
-  
+
   export const designPortfolio = [
     {
       id: 1,
@@ -147,7 +147,7 @@ export const featuredPortfolio = [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     },
   ];
-  
+
   export const contentPortfolio = [
     {
       id: 1,
@@ -186,7 +186,7 @@ export const featuredPortfolio = [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     },
   ];
-  
+
 
   export const accenture = {
     jobTitle: "Software Engineer",
@@ -303,10 +303,10 @@ export const axxess = {
         id: 1,
         text: "Extended key features and supported production bug fixes in a large user-base Axxess Home Care solution application (C#, .NET, SQL)."
       },
-      {
-        id: 2,
-        text: "Suggested improvements based on Kibana production logs and resolved Null Pointer exceptions."
-      }
+        {
+                id: 2,
+                text: "Suggested improvements based on Kibana production logs and resolved Null Pointer exceptions."
+        }
     ]
 
   };
