@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import PortfolioList from '../portfolioList/PortfolioList'
-import { accenture, paytm, wynk, timesInternet, utd} from '../../data.js'
+import { accenture, paytm, wynk, timesInternet, utd, axxess} from '../../data.js'
 import './experience.scss'
 
 export default function Experience() {
@@ -28,6 +28,10 @@ export default function Experience() {
     {
         id: "grader",
         title: "UTD"
+    },
+    {
+        id: "axxess",
+        title: "AXXESS"
     }];
 
 
@@ -51,6 +55,9 @@ export default function Experience() {
 
             case "grader":
                 setData(utd);
+                break;
+            case "axxess":
+                setData(axxess);
                 break;
 
             default:
