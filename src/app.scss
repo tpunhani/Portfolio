@@ -1,25 +1,30 @@
-.app {
-    height: 100vh;
+@import "./globalColor";
 
-    .sections {
-        width: 100%;
-        height: calc(100vh - 70px);
-        background-color: lightsalmon;
-        position: relative;
-        top:70px;
-        
-        scroll-behavior: smooth;
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none; //for firefox
-        &::-webkit-scrollbar{
-            display: none;
-        }
+.App {
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
 
-        & > * {
-            width: 100%;
-            height: calc(100vh - 70px);
-            scroll-snap-align: start;
+.App-logo {
+  height: 40vmin;
+}
 
-        }
-    }
+.App-header {
+  background-color: $appHeaderBG;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.625rem + 2vmin);
+  color: $textColorDark;
+}
+
+.App-link {
+  color: $appLink;
+}
+
+.subTitle {
+  color: $subTitle;
 }
